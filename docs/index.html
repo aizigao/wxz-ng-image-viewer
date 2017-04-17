@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+  <meta charset="utf-8" />
+  <title>wxz-ng-image-viewer</title>
+  <script src="https://cdn.bootcss.com/angular.js/1.6.4/angular.min.js"></script>
+  <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../dist/wxz-ng-image-viewer.min.css">
+  <!--<script src='../dist/wxz-ng-image-viewert-tpls.min.js'></script>-->
+  <script src="../src/wxz-ng-image-viewer.js"></script>
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <div ng-controller="MainCtrl">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <select ng-model='selectedImg'
+          ng-options="img.name for img in imgs"
+          ng-change="select(selectedImg)"
+        >
+        <option value="">--select a img--</option>
+        </select>
+        {{selectedImg}}
+        <wxz-ng-image-viewer
+          img-src = "imgSrc"
+          max='9'
+          min='0.1'
+          repeat = '2'
+        ></wxz-ng-image-viewer>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+/*****图像主区******/
+.wxz-img-view-cont {
+  width: 100%;
+  height: 600px;
+  background: #4D4A4A;
+  border: 1px solid #4D4A4A;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px;
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.wxz-img-view-cont .wxz-img-view-canvas {
+  width: 800px;
+  height: 600px;
+  position: absolute;
+  /*使用3d的css 内容可开启gpu加速*/
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+}
+.wxz-img-view-cont .wxz-scale-value {
+  position: absolute;
+  right: 4px;
+  top: 3px;
+  width: 150px;
+  height: 34px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  line-height: 34px;
+  border-radius: 5px;
+  font-size: 18px;
+}

@@ -1,2 +1,2 @@
-require('./dist/select-tpls.js');
-module.exports = 'oi.select';
+require('./dist/wxz-ng-image-viewer-tpls.js');
+module.exports = 'wxzNgImageViewer';

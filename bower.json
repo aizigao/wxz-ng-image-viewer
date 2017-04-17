@@ -1,13 +1,27 @@
 {
-    "author": {
-        "name": "https://github.com/tamtakoe"
-    },
-    "name": "oi.select",
-    "version": "0.2.21",
-    "main": ["./dist/select-tpls.min.js", "./dist/select.min.css"],
-    "dependencies": {
-        "angular": ">=1.2",
-        "angular-sanitize": ">=1.2",
-        "angular-mocks": ">=1.2"
-    }
+  "name": "wxz-ng-image-viewer",
+  "description": "Angular1 directive of image viewer, view image repeat",
+  "main": [
+    "./dist/wxz-ng-image-viewer-tpls.min.js",
+    "./dist/wxz-ng-image-viewer.min.css"
+  ],
+  "authors": [
+    "aizigao"
+  ],
+   "version": "0.1.1",
+  "license": "ISC",
+  "keywords": [
+    "angular1",
+    "angular",
+    "image",
+    "viewer"
+  ],
+  "homepage": "https://github.com/aizigao/wxz-ng-image-viewer",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }

@@ -4,8 +4,7 @@
  */
 
 
-'use strict';
-angular.module('wxz-ng-img-viewer', [])
+angular.module('wxzNgImageViewer',[])
   /**
    * 图片查看的服务
    */

@@ -1,4 +1,4 @@
-var app = angular.module('app', ['wxz-ng-img-viewer']);
+var app = angular.module('app', ['wxzNgImageViewer']);
 
 app.controller('MainCtrl', function ($scope) {
   //url

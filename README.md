@@ -1,5 +1,10 @@
 #wxzNgImageViewer — AngularJS directive of image viewer
+# wait for writing
 
+
+
+----
+copry from others 
 
 ## Features
 

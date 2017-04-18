@@ -27,7 +27,9 @@ gulp.task('webserver', function() {
             host: 'localhost',
             port: 3000,
             fallback: 'index.html',
-            livereload: true
+            path:'/',
+            livereload: true,
+            open: 'http://localhost:3000/docs'
         }));
 });
 
